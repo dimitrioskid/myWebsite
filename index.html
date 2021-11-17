@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap-->
+    <script src="assets/js/popper.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--jQuery-->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+
+    <!--Custom JS-->
+    <script src="assets/js/custom.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/jumbotron.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+
+    <link rel="shortcut icon" href="assets/img/dd.ico" />
+    <title>Darko Dimitrioski</title>
+    <style>
+
+    </style>
+    <script>
+    </script>
+</head>
+
+
+<body data-spy="scroll" data-target="#navbar-example" data-offset="50">
+    <!--Loader-->
+    <div id="loader-wrapper">
+        <img src="assets/img/ddlogo.jpg" alt="logo" id="logo" height="115" width="115">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark fixed-top d-none" id="navbar-example">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo">
+            <span class="navname">Dimitrioski Darko</span>
+        </a>
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item nl">
+                <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item nl">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item nl">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item nl">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--/Navbar-->
+
+    <!--Home-->
+    <div class="jumbotron text-center" id="home">
+        <figure class="snip1190">
+            <img src="assets/img/home2.jpg" alt="background" />
+            <figcaption>
+                <div class="square">
+                    <div></div>
+                </div>
+                <h2>Darko<span> Dimitrioski</span></h2>
+                <p>Web Developer</p>
+            </figcaption>
+        </figure>
+
+        <!--Scroll Down-->
+        <div>
+            <section>
+                <a href="#about" class="scroll-down"></a>
+            </section>
+        </div>
+        <!--/Scroll Down-->
+    </div>
+    <!--/Home-->
+
+    <!-- Content -->
+    <div class="container-fluid col-sm-12 Con">
+
+        <!--About-->
+        <div id="about">
+            <h1 class="float-left ml-5" data-aos="fade-right">About Me</h1>
+            <div id="clear"></div>
+            <p class="lead plead ml-5" data-aos="fade-right">Main information about me</p>
+            <div id="clear"></div>
+
+            <!--Scroll to the top button-->
+            <a onclick="topFunction()" id="myBtn" class="btn btn-sm animated-button thar-three" title="Go to top">
+                <i class="fas fa-angle-double-up"></i>
+            </a>
+
+            <div class="row">
+
+                <!--Card-->
+                <div class="container col-lg-5 col-md-5 col-sm-12" id="card" data-aos="fade-right" data-aos-delay="250">
+                    <img src="assets/img/darko.jpg" class="rounded mx-auto d-block darko" alt="Darko Dimitrioski">
+                </div>
+                <!--/Card-->
+
+                <!--Info-->
+                <div class="container col-lg-7 col-md-7 col-sm-12" id="info" data-aos="fade-up" data-aos-delay="250">
+                    <ul>
+                        <li>
+                            <p class="note note-1 mb-4"><i class="fas fa-chevron-circle-right"></i> Hi, my name is Darko Dimitrioski. I'm a Junior Web Developer with the main focus on PHP/Laravel technologies.</p>
+                        </li>
+                        <li>
+                            <p class="note note-2 mb-4"><i class="fas fa-chevron-circle-right"></i> As a web developer, new experiences and challenges are my thing. I never think twice when I have the opportunity to learn something new. </p>
+                        </li>
+                        <li>
+                            <p class="note note-3"><i class="fas fa-chevron-circle-right"></i>My interests in many different fields has helped me to stay curious, open and flexible. Check below my projects.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--/Info-->
+            </div>
+            <!--/row1-->
+
+            <!--Counter-->
+            <div class="container" id="counter" data-aos="zoom-in">
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <h3>Colaborations </h3>
+                        <i class="fa fa-users"></i>
+                        <h1><span class="counter">4</span></h1>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h3>Online Courses</h3>
+                        <i class="fa fa-desktop"></i>
+                        <h1><span class="counter">10</span>+</h1>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h3>Projects</h3>
+                        <i class="fa fas fa-upload"></i>
+                        <h1><span class="counter">6</span></h1>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h3>Cups Of Coffee</h3>
+                        <i class="fa fa-coffee"></i>
+                        <h1><span class="counter" id="randomNumber">10.228</span>+</h1>
+                    </div>
+                </div>
+                <!--/row2-->
+            </div>
+            <!--/Counter-->
+        </div>
+        <!--/About-->
+
+        <div class="clear"></div>
+
+        <!--Projects-->
+        <div id="projects">
+            <div class="row" data-aos="fade-right">
+                <div class="float-left ml-5 projectsTitle">
+                    <h1 class="d-block">Projects</h1>
+                    <p class="lead plead d-block">Check my projects and technologies I have worked with</p>
+                </div>
+            </div>
+            <!--/row3-->
+
+            <div class="row cards1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                <div class="col-lg-4 col-md-6 col-sm-7 mx-auto">
+                    <div class="card col-sm-12">
+                        <img src="assets/img/marteks.png" class="card-img-top rounded" alt="Marteks">
+                        <div class="card-body">
+                            <h5 class="card-title">Marteks</h5>
+                            <a target="_blank" class="btn btn-sm animated-button thar-two mx-auto" id="cardBtn">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7 mx-auto">
+                    <div class="card col-sm-12">
+                        <img src="assets/img/wma.png" class="card-img-top rounded" alt="WMA">
+                        <div class="card-body">
+                            <h5 class="card-title">Warehouse Menagment App</h5>
+                            <a target="_blank" class="btn btn-sm animated-button thar-two mx-auto" id="cardBtn" title="Due to problem with my free server, database is not working properly.">Check the code on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/row4-->
+
+            <div class="row cards2" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                <div class="col-lg-4 col-md-6 col-sm-7 mx-auto">
+                    <div class="card col-sm-12">
+                        <img src="assets/img/st.jpg" class="card-img-top rounded" alt="StoryTeller">
+                        <div class="card-body">
+                            <h5 class="card-title">StoryTeller</h5>
+                            <a target="_blank" class="btn btn-sm animated-button thar-two mx-auto" id="cardBtn" title="Due to problem with my free server, database is not working properly.">Check the code on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7 mx-auto">
+                    <div class="card col-sm-12">
+                        <img src="assets/img/scraping.jpg" class="card-img-top rounded" alt="Weather2">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Scraper</h5>
+                            <a target="_blank" class="btn btn-sm animated-button thar-two mx-auto" id="cardBtn">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/row5-->
+        </div>
+        <!--/Projects-->
+    </div>
+    <div class="container text-center mt-4"><a href="https://github.com/ddarko91" class="seemore lead plead">See more on my GitHub account</a></div>
+    <!--/content-->
+
+    <!--Contact-->
+    <div id="contact" class="container-fluid Con">
+        <div class="row" data-aos="fade-right">
+            <div class="float-left ml-5 contactTitle">
+                <h1 class="d-block">Contact</h1>
+                <p class="lead plead d-block">Get in touch with me</p>
+            </div>
+        </div>
+        <!--/row6-->
+
+        <div class="row">
+            <!--Social-->
+            <div class="container col-lg-5 col-md-4 col-sm-12" id="social" data-aos="zoom-in-right" data-aos-duration="1500">
+                <p><i class="fas fa-map-marker-alt"></i> Lisbon, Portugal</p>
+                <p><i class="fas fa-link"></i><a href="https://www.dimitrioski.site">dimitrioski.site</a></p>
+                <p><i class="fas fa-envelope mailing"></i><a href="mailto:dimitrioskidarko91@gmail.com"><span class="mailing">dimitrioskidarko91@gmail.com</span></a></p>
+                <ul>
+                    <!-- <li>
+                        <a href="https://www.facebook.com/darkod22" target="_blank">
+                            <i class="fab fa-facebook-f icon"></i></a>
+                    </li> -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/darko-dimitrioski" target="_blank"><i
+                                class="fab fa-linkedin-in icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ddarko91" target="_blank"><i class="fab fa-github icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!--/Social-->
+
+            <!--Contact Form-->
+            <div class="container col-lg-7 col-md-8 col-sm-12" id="form" data-aos="zoom-in-left" data-aos-duration="1500">
+
+                <!--Form-->
+                <form class="col-sm-12" action="" method="post" onsubmit="return false;" id="myform" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="content" rows="3" name="content" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <!-- Spam prevent -->
+                    <input type="text" id="antiSpam" name="antiSpam"/>
+
+                    <div>
+                        <button class="btn btn-sm animated-button thar-three" type="submit" id="submit" name='submit' value='Post'>Send</button>
+                    </div>
+                    <div id="message" class="col-lg-5 col-md-6 col-sm-12 text-center"></div>
+                </form>
+                <!--/Form-->
+            </div>
+            <!--/Contact Form-->
+        </div>
+        <!--/row7-->
+    </div>
+    <!--/Contact-->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3"><i class="far fa-copyright"></i> 2021 Copyright:
+            <a href="#"> dimitrioski.site</a>
+        </div>
+        <!-- /Copyright -->
+    </footer>
+    <!-- /Footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/sentMail.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        //AOS
+        AOS.init();
+
+        //Scroll button function
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        //Random number(Cups of coffee)
+        document.getElementById("randomNumber").innerHTML =
+        Math.floor(Math.random() * 4000) + 10000;
+
+
+    </script>
+</body>
+
+</html>
